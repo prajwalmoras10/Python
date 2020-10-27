@@ -1,0 +1,17 @@
+#concatenation and combination of strings and numbers
+#CODE:HITMAN
+agent_id = int(input("Enter the Agent number :"))
+name = "Agent" + " " + str(agent_id)
+print(str(name))
+
+if str(name) == "Agent 47" :
+    print("The Hitman is here.\n begin the mission")
+elif str(name) == "Agent 10" :
+    print("Agent Prajwal is here. Begin the mission,\n no need for backup. \n He'll finish them himself")
+else :
+    print("The Agent is here,\n keep backup on standby and ready for his signal")
+
+#below is the overwriting and change in the value of variables
+string = "Py"
+string = string + "thon"
+print(str(string))
