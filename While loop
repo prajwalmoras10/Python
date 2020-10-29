@@ -1,0 +1,9 @@
+#while loop example and practice
+
+score = 0
+
+while score <= 10 :
+    print ("the match seems seven among both sides")
+    score += 1
+else:
+    print("The match is hugely one sided now")
