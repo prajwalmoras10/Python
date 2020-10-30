@@ -1,0 +1,26 @@
+# adds the tax to the food or beverage ordered and prints the outcome
+
+nachos = 6
+pizza = 6
+cheeseburger = 10
+water = 4
+coke = 5
+
+order = input("enter what you will order :")
+
+total_nachos = (6*0.07)+6
+total_pizza = (6*0.07)+6
+total_cheeseburger = (10*0.07)+6
+total_water = (4*0.07)+6
+total_coke = (5*0.07)+6
+
+if order == nachos:
+    print("The total price for nachos is ", str(total_nachos))
+elif order == pizza:
+    print("The total price for pizza is ", str(total_pizza))
+elif order == cheeseburger:
+    print("The total price for cheeseburger is ", str(total_cheeseburger))
+elif order == water:
+    print("The total price for water is ", str(total_water))
+elif order == coke:
+    print("The total price for coke is ", str(total_coke))
