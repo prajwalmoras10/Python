@@ -24,3 +24,22 @@ elif order == water:
     print("The total price for water is ", str(total_water))
 elif order == coke:
     print("The total price for coke is ", str(total_coke))
+
+
+#for loop example,
+#for loop practice
+a = [1,2,3,4,5,6,7,8,9,0]
+for i in range(11):
+    print(i)
+    
+    output: 
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    0
