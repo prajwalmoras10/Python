@@ -1,0 +1,26 @@
+# multiplication tables of any random number
+# 24
+i = 1
+while i <= 10:
+    a = 24 * i
+    print("24 * %d = %d" % (i , a))
+    i = i+1
+    if i > 10:
+        break
+# 39
+i = 1
+while i <= 10:
+    b = 39 * i
+    print("39 X %d = %d" %(i , b))
+    i = i + 1
+    if i > 10:
+        break
+
+# 73
+i = 1
+while i <= 10:
+    c = 73 * i
+    print("73 X %d = %d" % (i, c))
+    i = i + 1
+    if i > 10:
+        break
