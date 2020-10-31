@@ -1,0 +1,11 @@
+# while loop for average of first 10 integers
+# i value can be modified to suit any amount of numbers
+sum = 0
+i = 10
+
+while i>0:
+    print("Enter number")
+    num = int(input())
+    sum = sum+num
+    i = i-1
+print("average is", sum/10.0)
