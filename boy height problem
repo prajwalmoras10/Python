@@ -1,0 +1,12 @@
+# while loop with strings
+# a kid needs to be above 4 feet 5 inches to ride an amusement park ride
+# he comes back every year to check if he can ride
+# program prints his height every year
+
+height = float(input("Enter the height of the boy :"))
+
+while height < 4.5:
+    print("The boy cannot ride because he is below the minimum height", str(height))
+    height = height + 0.1
+else:
+    print("The boy can ride because he has reached or exceeded the minimum height ", str(height))
