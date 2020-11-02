@@ -1,0 +1,7 @@
+# printing the inverse of a word entered
+
+word = input("Enter a word which will be reversed :")
+
+for char in range(len(word)-1, -1, -1):
+    print(word[char], end="")
+print("\n")
