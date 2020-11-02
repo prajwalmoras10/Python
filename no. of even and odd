@@ -1,0 +1,17 @@
+# taking input of several numbers and listing the number of odd or even numbers
+
+a = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+# tuple is a set of defined objects inside a round bracket
+# tuple is defined and cannot be altered or changed
+
+count_odd = 0
+count_even = 0
+
+for x in a:
+    if not x % 2 == 0:
+        count_even += 1
+    else:
+        count_odd += 1
+
+print("Number of even numbers = ", str(count_even))
+print("Number of odd numbers = ", str(count_odd))
