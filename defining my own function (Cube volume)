@@ -1,0 +1,10 @@
+# defining and creating your own function
+# function that computes the volume of the cube
+
+def cubeVolume(sideLength):
+    volume = sideLength ** 3
+    return volume  # exits the function
+
+result = cubeVolume(2)
+result2 = cubeVolume(10)
+print("The volumes of the two cubes are %d and %d respectively " % (result,result2))
