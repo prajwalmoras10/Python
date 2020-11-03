@@ -1,0 +1,11 @@
+# defining and creating your own function
+# function that computes the volume of the sphere
+
+def sphereVolume(radius):
+    volume = (4/3 * 3.14) * (radius ** 3)
+    return volume
+
+result = sphereVolume(2)
+result2 = sphereVolume(10)
+
+print("The volumes of the two spheres are %d and %d " % (result,result2))
